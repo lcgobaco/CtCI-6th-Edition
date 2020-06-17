@@ -1,9 +1,7 @@
 package Q4_01_Route_Between_Nodes;
-import lombok.extern.slf4j.Slf4j;
 
 import java.util.LinkedList;
 
-@Slf4j
 public class Question {
 	public enum State {
 		Unvisited, Visited, Visiting;
@@ -15,7 +13,6 @@ public class Question {
 		Node[] n = g.getNodes();
 		Node start = n[3];
 		Node end = n[5];
-		log.debug(String.valueOf(search(g, start, end)));
 		System.out.println(search(g, start, end));
 	}
 	

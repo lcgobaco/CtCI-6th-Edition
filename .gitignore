@@ -1,7 +1,1 @@
 bin/
-*.project
-*.iml
-Java/.settings/
-*.classpath
-*.prefs
-*.class
